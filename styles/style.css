@@ -8,6 +8,42 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+p .text {
+  margin-top   : 0;
+  margin-bottom: 0px;
+  line-height  : 1.2;
+  font-size    : 18px;
+  font-weight  : normal;
+}
+
+.text-indent-20 {
+  margin-top   : 0;
+  margin-bottom: 20px; 
+}
+
+h1 {
+  margin-top   : 0;
+  margin-bottom: 0;
+  line-height  : 1.15;
+  font-size    : 60px;
+  font-weight  : bold;
+}
+
+h2 {
+  margin-top   : 20px;
+  margin-bottom: 0;
+  line-height  : 34px;
+  font-size    : 24px;
+  font-weight  : normal;
+}
+
+h3 {
+  margin-top   : 0px;
+  margin-bottom: 20px;
+  line-height  : 1.15;
+  font-size    : 24px;
+  font-weight  : bold;
+}
 
 /* Центрирование */
 .centered-block {
@@ -108,13 +144,12 @@
 }
 
 .description__two-columns {
-  display   : flex;
-  margin  : auto;
-  position : relative;
-  width    : 80%; 
-  min-width: 784px;
-  margin-top: 100px;
-
+  display        : flex;
+  margin         : auto;
+  position       : relative;
+  width          : 80%; 
+  min-width      : 784px;
+  margin-top     : 100px;
   justify-content: space-between;
 }
 
@@ -131,16 +166,50 @@
 }
 
 .two-columns__main-text {
-  
   right      :0;
   top        :0;
   bottom     :0;
-  width: 80%;
+  width      : 80%;
   font-size  : 24px;
   line-height: 34px;
   font-weight: normal; 
 }
 
+.digits {
+  display       : flex;
+  flex-direction: column;
+  margin        : auto;
+  position      : relative;
+}
+
+.digits__title {
+  width     : 60%; 
+  margin-top: 100px;
+  position  : relative;
+  text-align: center; 
+}
+
+.digits__section-subtitle {
+  width    : 60%; 
+  margin-top: 20px;
+  position: relative;
+  text-align: center; 
+}
+
+.table {
+  width: 1100px;
+}
+
+.table__cell {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.table__cell-width {
+  width: 250px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
