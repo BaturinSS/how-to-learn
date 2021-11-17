@@ -44,6 +44,21 @@ h3 {
   font-size    : 24px;
   font-weight  : bold;
 }
+h4 {
+  margin-top   : 0;
+  margin-bottom: 0;
+  line-height  : 1.15;
+  font-size    : 120px;
+  font-weight  : bold;
+}
+
+h5 {
+  margin-top   : 0;
+  margin-bottom: 0;
+  line-height  : 51px;
+  font-size    : 36px;
+  font-weight  : normal;
+}
 
 /* Центрирование */
 .centered-block {
@@ -51,18 +66,18 @@ h3 {
 }
 
 .flex-row {
-  display: flex;
+  display        : flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap      : wrap;
 }
 
 .header {
   background-color: #f2f2f2;
-  height: 100vh;
-  display: flex;
-  min-height: 600px;
-  max-height: 756px;
-  position: relative;
+  height          : 100vh;
+  display         : flex;
+  min-height      : 600px;
+  max-height      : 756px;
+  position        : relative;
   /* выше установили ограничения для секции */
 }
 
@@ -210,6 +225,52 @@ h3 {
 .table__cell-width {
   width: 250px;
 }
+
+.feynman {
+  height: 890px;
+  display       : flex;
+  flex-direction: column;
+  margin        : auto;
+  position      : relative;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  width     : 648px; 
+  margin-top: 100px;
+  z-index   : 3;
+  position  : relative;
+  text-align: center;
+}
+
+.feynman__main-illustration {
+  height: 637px;
+  width: 867px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left    : 0;
+  bottom  : 0;
+  border  : none;
+  z-index : 2;
+}
+
+.feynman__subtitle { 
+  margin-top: 70px;
+  z-index   : 3;
+  position  : relative;
+  text-align: center;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  z-index   : 4;
+  
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
