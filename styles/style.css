@@ -8,7 +8,16 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-p .text {
+
+.text {  margin-top   : 0;
+  margin-bottom: 0px;
+  line-height  : 1.2;
+  font-size    : 18px;
+  font-weight  : normal;
+
+}
+
+p  {
   margin-top   : 0;
   margin-bottom: 0px;
   line-height  : 1.2;
@@ -215,6 +224,12 @@ h5 {
   width: 1100px;
 }
 
+.table__cell-top {
+  display: flex;
+  margin-top: 60px;
+  position: relative;
+}
+
 .table__cell {
   display: flex;
   margin-top: 60px;
@@ -269,6 +284,68 @@ h5 {
   top: 50%;
   z-index   : 4;
   
+}
+.kaufman {
+  /*display       : flex;
+  flex-direction: column;
+  margin        : auto;*/
+  position      : relative;
+  background-color: #1f1f1f;
+  color: white;
+  overflow: hidden;
+  
+}
+
+.kaufman__section-title-theme-dark {
+  width     : auto; 
+  margin-top: 90px;
+  position  : relative;
+  text-align: center;
+  z-index : 1;
+}
+
+.kaufman__section-subtitle-dark {
+  width    : 60%; 
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  z-index : 1;
+}
+
+.table__theme-dark {
+  width: 80%;
+}
+
+.table__cell-dark-top {
+  display: flex;
+  margin-top: 80px;
+  position: relative;
+}
+
+.table__cell-dark {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 90px;
+  position: relative;
+}
+
+.table__cell-theme-dark {
+  width: 200px;
+}
+
+.kaufman__main-illustration {
+  position: absolute;
+  height: 877px;
+  
+  width : 877px;
+  right: 0;
+  top: 0;
+}
+
+.test {
+  height: 1000px;
+  background-color: #b63030;
+  position: relative;
 }
 
 /* и элемента с модификатором вида ключ-значение */
