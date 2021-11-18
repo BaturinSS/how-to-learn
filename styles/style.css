@@ -286,14 +286,13 @@ h5 {
   
 }
 .kaufman {
-  /*display       : flex;
-  flex-direction: column;
-  margin        : auto;*/
-  position      : relative;
+  display         : flex;
+  flex-direction  : column;
+  margin          : auto;
+  position        : relative;
   background-color: #1f1f1f;
-  color: white;
-  overflow: hidden;
-  
+  color           : white;
+  overflow        : hidden;
 }
 
 .kaufman__section-title-theme-dark {
@@ -335,17 +334,19 @@ h5 {
 
 .kaufman__main-illustration {
   position: absolute;
-  height: 877px;
-  
-  width : 877px;
-  right: 0;
-  top: 0;
+  height  : 877px;
+  width   : 877px;
+  right   : -210;
+  top     : 0;
 }
 
-.test {
-  height: 1000px;
-  background-color: #b63030;
-  position: relative;
+.footer {
+  display         : flex; /* флекс контейнер */
+  /*flex-direction  : column;   расположение флекс объектов в флекс контейнере по вертикали*/
+  min-height      : 350px; /* минимальная высота*/
+  position        : absolute; /* элемент абсолютно позиционирован, не мешает другим элементам. На положение влияет значение свойства position родительского элемента*/
+  background-color: coral; /*Цвет фона контейнера*/
+  color           : white; /*Цвет текста*/
 }
 
 /* и элемента с модификатором вида ключ-значение */
