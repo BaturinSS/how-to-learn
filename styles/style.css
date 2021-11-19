@@ -321,7 +321,7 @@
   position       : relative;
   display        : flex;
   /*flex-direction : row;*/
-  Justify-content: space-between;
+  justify-content: space-between;
   margin-top     : 60px;
   margin-bottom  : 40px;
 }
