@@ -320,8 +320,8 @@
   width          : 90%;
   position       : relative;
   display        : flex;
-  flex-direction : row;
-  Justify-content: space-around;
+  /*flex-direction : row;*/
+  Justify-content: space-between;
   margin-top     : 60px;
   margin-bottom  : 40px;
 }
@@ -329,7 +329,7 @@
 .footer_columns_content_copyright {
   display        : flex;
   flex-direction : column;
-  /*  Justify-content: space-between;*/
+  /*Justify-content: space-between;*/
   flex-basis     : 711px;
   margin         : 0;
 }
