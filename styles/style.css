@@ -49,18 +49,22 @@
 /*!Общие - table*/
 
 .table {
-  width   : 1100px;
-  padding : 0;
-  position: relative;
-  margin  : auto;
-  display : flex;
+  width          : 1100px;
+  padding        : 0;
+  position       : relative;
+  margin         : auto;
+  display        : flex;
   justify-content: space-between;
+  /*border         : 1px solid red;*/
 }
 
 
 .table__cell {
   flex-basis     : 250px;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border         : 1px solid red;
 }
 
 .table__heading {
@@ -101,6 +105,7 @@
   left       : 64px;
   z-index    : 5;
   color      :#000000;
+  /*border     : 1px solid red;*/
 }
 
 .header__subtitle {
