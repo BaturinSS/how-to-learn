@@ -321,94 +321,99 @@
 /*!Подвал сайта, блок footer*/
 
 .footer {
-  background-color:#1f1f1f;
+  min-height: 350px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 350px;
-  border: 1px solid red;
+  background-color:#1f1f1f;
+  /*border: 1px solid rgb(91, 92, 143);*/
 }
 
 .footer__columns {
   width: 90%;
-  position: relative;
+  margin-top: 60px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
-  margin-top: 60px;
-  margin-bottom: 40px;
-  border: 1px solid rgb(255, 102, 0);
+  /*border: 1px solid rgb(255, 102, 0);*/
 }
 
-.footer_columns_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-basis: 711px;
-  border: 1px solid rgb(0, 217, 255);
+.footer__column {
+  display:flex;
+  flex-direction:column;
+}
+
+.footer__column_content_copyright {
+  flex-basis:711px;
+  justify-content:space-between;
+  align-items:flex-start;
+  /*border:1px solid rgb(0, 217, 255);*/
 }
 
 .logo_place_footer {
   height: 35px;
   width: 183px;
-  /*top: 0;
-  left: 0;*/
+  top: 0;
+  left: 0;
   background-image: url(../images/logo_place_footer.svg);
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .footer__author {
-  margin: 0;
-  padding: 0;
   margin-bottom: 18px;
   margin-top: 18px;
-  /*padding-top: 18px;
-  padding-bottom: 18px;*/
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
-  border: 1px solid yellow;
+  /*border: 1px solid yellow;*/
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
-  border: 1px solid rgb(15, 167, 23);
+  /*border: 1px solid red;*/
 }
 
-.footer_columns_content_info {
+/*.footer__column_content_info {
+  /* Позиционирование */
+  /* Блочная модель */
+  /* Типографика */
+  /* Оформление */
+ /*border: 1px solid red;*/
+  /* Анимация */
+  /* Разное 
+}*/
+
+.footer__column-links {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid red;*/
+}
+
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 16px;
-  border: 1px solid red;
-}
-.footer__column-link {
   text-decoration: none;
   color:white;
+  /*border: 1px solid red;*/
 }
 
-.footer_columns_content_social {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 400;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 16px;
-  border: 1px solid blue;
-}
+/*.footer__column_content_social {
+  /* Позиционирование */
+  /* Блочная модель */
+  /* Типографика */
+  /* Оформление */
+  /*border: 1px solid red;
+}*/
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  margin-right: 10px;
 }
