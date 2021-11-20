@@ -64,7 +64,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
-  border         : 1px solid red;
+  /*order         : 1px solid red;*/
 }
 
 .table__heading {
