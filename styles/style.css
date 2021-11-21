@@ -40,13 +40,10 @@
   color:#000000;
 }
 
-.table_theme_dark {
-  color: white;
-}
-
 /*!Общие - table*/
 
 .table {
+  z-index: 5;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -245,7 +242,7 @@
   margin: 0;
   padding: 0;
   margin-top: 100px;
-  color:  #000000;
+  color: #000000;
 }
 
 .feynman__subtitle {
@@ -285,10 +282,49 @@
 .kaufman {
   position: relative;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #1f1f1f;
 }
+
+.section-title_theme_dark {
+  color: white;
+  margin: 0;
+  margin-top: 90px;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.table__cell_theme_dark {
+  z-index: 5;
+  flex-basis: 200px;
+  margin: 0;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.table__text_theme_dark {
+  margin: 0;
+  padding: 0;
+}
+
+
+.table_theme_dark {
+  color: white;
+  margin-bottom: 90px;
+}
+
 
 .kaufman__triangle {
   position: absolute;
@@ -305,8 +341,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color:#1f1f1f;
-  /*border: 1px solid rgb(91, 92, 143);*/
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
@@ -316,19 +351,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*border: 1px solid rgb(255, 102, 0);*/
 }
 
 .footer__column {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_copyright {
-  flex-basis:711px;
-  justify-content:space-between;
-  align-items:flex-start;
-  /*border:1px solid rgb(0, 217, 255);*/
+  flex-basis: 711px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .logo_place_footer {
@@ -337,7 +370,6 @@
   top: 0;
   left: 0;
   background-image: url(../images/logo_place_footer.svg);
-  /*border: 1px solid red;*/
 }
 
 .footer__author {
@@ -346,7 +378,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
-  /*border: 1px solid yellow;*/
 }
 
 .footer__column-heading {
@@ -354,7 +385,6 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
-  /*border: 1px solid red;*/
 }
 
 /*.footer__column_content_info {
@@ -364,7 +394,7 @@
   /* Оформление */
   /*border: 1px solid red;*/
   /* Анимация */
-  /* Разное 
+  /* Разное
 }*/
 
 .footer__column-links {
@@ -372,7 +402,6 @@
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
-  /*border: 1px solid red;*/
 }
 
 .footer__column-link {
@@ -381,7 +410,6 @@
   font-weight: 400;
   text-decoration: none;
   color:white;
-  /*border: 1px solid red;*/
 }
 
 /*.footer__column_content_social {
@@ -393,7 +421,7 @@
 }*/
 
 .footer__social-icon {
+  margin-right: 10px;
   height: 16px;
   width: 16px;
-  margin-right: 10px;
 }
