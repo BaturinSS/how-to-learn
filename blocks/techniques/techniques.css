@@ -1,5 +1,6 @@
-.digits {
-   margin: 0;
+.techniques {
+   width: 80%;
+   margin: auto;
    padding: 0;
    display: flex;
    flex-direction: column;
