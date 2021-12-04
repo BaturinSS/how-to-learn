@@ -10,6 +10,7 @@
   text-decoration: none;
   color: #2f80ed;
   transition: 1s;
+  border: 1px solid red;
 }
 
 .feynman__link:hover {

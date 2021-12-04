@@ -1,4 +1,5 @@
 .table__text_theme_dark {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }

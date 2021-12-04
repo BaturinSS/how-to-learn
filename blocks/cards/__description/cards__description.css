@@ -4,5 +4,6 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
-  text-align: center 
+  text-align: center;
+  border: 1px solid red;
 }
