@@ -5,7 +5,7 @@
   text-decoration: none;
   color:white;
   transition: 1s;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .footer__column-link:hover {
