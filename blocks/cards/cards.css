@@ -1,16 +1,8 @@
 .cards {
-  z-index: 5;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 920px;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 100px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
-
-/*.cards:last-child {
-  
-}*/
