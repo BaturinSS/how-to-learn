@@ -3,5 +3,6 @@
   left: 64px;
   top: 30px;
   z-index: 5;
+  background-image: url(../../../images/logo_place_header.svg);
   /*border: 1px solid red;*/
 }
