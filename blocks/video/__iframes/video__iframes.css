@@ -2,8 +2,6 @@
   position: relative;
   margin: auto;
   top: 50px;
-  /*display: flex;
-  flex-direction: row;
-  align-items: flex-start;*/
-  border: 1px solid red;
+  display: flex;
+  /*border: 1px solid red;*/
 }

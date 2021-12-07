@@ -5,7 +5,7 @@
   padding: 0;
   list-style-type: none;
   transition: 1s;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .resources__logo:hover {
