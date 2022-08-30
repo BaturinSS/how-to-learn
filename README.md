@@ -30,4 +30,4 @@
   
 ---
 
-## :full_moon: [Ссылка на сайт](https://baturinss.github.io/mesto/)    :point_left::point_left::point_left:
+## :full_moon: [Ссылка на сайт](https://baturinss.github.io/how-to-learn)    :point_left::point_left::point_left:
