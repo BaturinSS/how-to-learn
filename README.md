@@ -1,6 +1,6 @@
 # 🌕 [Проект: Место(JS)](https://baturinss.github.io/mesto/)
 
-[Видео. Краткий обзор](https://user-images.githubusercontent.com/94468513/163075115-f2bbe1a0-51f3-4118-b5f6-601b5370f4c2.mp4)
+[Видео. Краткий обзор](https://user-images.githubusercontent.com/94468513/187517579-9dc81419-febd-4119-a782-1c47efe83f19.mp4)
 
 ## 🌕 Краткое описание:
 
