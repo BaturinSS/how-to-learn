@@ -19,6 +19,7 @@
 
 ### 🌕 Используемые Технологии:
 
+<img src="https://user-images.githubusercontent.com/94468513/187542776-f4aaee57-c8b2-4de6-9d84-48b7cdf0b1a9.svg" title="VSCode" alt="VSCode" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
 <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
 <img src="https://user-images.githubusercontent.com/94468513/187526649-ea43f3cc-3b08-4054-9af2-ec81af5bc2e6.svg" title="Git" alt="Git" width="40" height="40"/>&nbsp;
