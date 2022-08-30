@@ -1,19 +1,33 @@
-### Практическая работа 3
+# :full_moon: [Проект: Место(JS)](https://baturinss.github.io/mesto/)
 
-# Научиться учиться
+[Видео. Краткий обзор](https://user-images.githubusercontent.com/94468513/163075115-f2bbe1a0-51f3-4118-b5f6-601b5370f4c2.mp4)
 
-Проект для проверки знаний теории по курсу Яндекс Практикума Веб-разработчик.
+## :full_moon: Краткое описание:
 
-Теория по второму спринту. За основу выбран сайт из 1 спринта.
+Интерактивная страница, куда можно добавлять фотографии, удалять их и ставить лайки. Проектная работа по курсу [Front-end-разработчик](https://practicum.yandex.ru/web/).
 
-Сайт Лендинг (Landing page). Состоит из 11 блоков. Три основных блока, это - Шапка (Header), Основной блок (Content) и Подвал (Footer). Основной блок состоит еще из 9 блоков.
+Проект реализован под присмотром опытных менторов из материалов предоставленных Яндекс.Практикум по [макету](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1) в Figma. Работа проверена опытными ревьюерами. В проекте применяются технологии построения сетки CSS Flexbox и CSS Grid Layout. Это адаптивная верстка под разные устройства. Для адаптации используются медиа запросы.
 
-Выполнен с использованием технологии HTML и CSS. Использованы разные методы и свойство. Из основных это - fleks, position, animation, frame и т.д. Структура сайта и файлов выполнена в соответствии с правилами БЭМ.
+Логика реализованна на javaScript. Открывается и закрывается окно изменения данных. Вносятся изменения из формы на сайт. Реализована возможность отметки на фото  :hearts: . Сайт подключен к серверу. Все данные сохраняются путем отправки запросов. Проект собран при помощи WebPack.
 
-Все материалы были предоставлены Яндекс Практикумом.
+## :full_moon: Используемые Технологии:
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://user-images.githubusercontent.com/78322084/162064174-194ac89a-024d-4839-aae3-22d9ee4e3a33.png"  title="GitHub" alt="GitHub" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
 
-Сайт содержит только информацию по теме. Нет заполняемых форм и JavaScript (Джава скрипт) модуля.
+## :full_moon: Произведена работа:
 
-Считаю что сайт выполнен полностью и в доработке не нуждается.
+  :white_check_mark: Загрузка информации о пользователе с сервера    
+  :white_check_mark: Загрузка первоначальных карточек с сервера    
+  :white_check_mark: Редактирование профиля    
+  :white_check_mark: Добавление новой карточки    
+  :white_check_mark: Отображение количества лайков    
+  :white_check_mark: Удаление карточки(можно удалять только свою)    
+  :white_check_mark: Можно ставить и удалять лайки    
+  :white_check_mark: Обновлять аватар    
+  
+---
 
-https://baturinss.github.io/how-to-learn/
+## :full_moon: [Ссылка на сайт](https://baturinss.github.io/mesto/)    :point_left::point_left::point_left:
