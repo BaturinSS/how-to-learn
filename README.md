@@ -29,4 +29,4 @@
   ✅ Обновлять аватар    
 ---
 
-## 🌕 [Ссылка на сайт](https://baturinss.github.io/how-to-learn)    :point_left::point_left::point_left:
+## 🌕 [Ссылка на сайт](https://baturinss.github.io/how-to-learn)    👈👈👈👈    
