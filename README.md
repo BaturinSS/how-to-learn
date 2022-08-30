@@ -1,4 +1,4 @@
-# 🌕 [Проект: Место(JS)](https://baturinss.github.io/mesto/)
+# 🌕 [Проект: How to learn](https://baturinss.github.io/how-to-learn)
 
 [Видео. Краткий обзор](https://user-images.githubusercontent.com/94468513/187517579-9dc81419-febd-4119-a782-1c47efe83f19.mp4)
 
