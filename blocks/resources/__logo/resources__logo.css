@@ -5,9 +5,10 @@
   padding: 0;
   list-style-type: none;
   transition: 1s;
+  vertical-align: bottom;
   /*border: 1px solid red;*/
 }
 
 .resources__logo:hover {
-  opacity: 0.50;
+  opacity: 0.5;
 }
